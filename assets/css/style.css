@@ -1,0 +1,74 @@
+main{
+	margin-top: 100px;
+}
+.main_container{
+	padding-right: 10px;
+}
+.equation{
+	height: 100px;
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+}
+.reponse{
+	height: auto;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+.solution{
+	height: auto;
+	display: none;
+	padding: 10px !important;
+}
+.main_text{
+	margin-top: 5px;
+	color: #0d47a1;
+}
+.col .row{
+	margin-left: 0;
+}
+.titre{
+	margin: 0;
+}
+.reponse .row{
+	width: 100%;
+	margin-right: 0;
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.fadein{
+    -webkit-animation: fadein 0.5s ease-in;
+    -moz-animation: fadein 0.5s ease-in;
+    animation: fadein 0.5s ease-in;
+}
+.gif{
+	height: 250px;
+	width: 250px;
+	background-repeat: no-repeat;
+}
+.text_result{
+	text-decoration: brown;
+	color: #0d47a1;
+	width: 300px;
+}
+.button_retry{
+	margin: 0;
+	width: 100%;
+	margin-top: 10%;
+}
+.value_result{
+	width: 100%;
+}
