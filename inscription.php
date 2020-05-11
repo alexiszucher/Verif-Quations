@@ -23,7 +23,7 @@
                     </div>
 
                     <input type="submit" name="formregister" value="Inscription" class="btn blue left col s12">
-                    <p class="left">Dèjà membre? <a href="#" class="blue-text">Se connecter</a></p>
+                    <p class="left">Dèjà membre? <a href="./index.php" class="blue-text">Se connecter</a></p>
                     <div class="clearfix"></div>
                 </div>
             </form>

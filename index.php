@@ -25,7 +25,7 @@
                         </label>
                     </p>
                     <input type="submit" name="formlogin" value="Se connecter" class="btn blue left col s12">
-                    <p class="left">Ëtes-vous nouveau? <a href="#" class="blue-text">Inscripton</a></p>
+                    <p class="left">Ëtes-vous nouveau? <a href="inscription.php" class="blue-text">Inscripton</a></p>
                     <p class="right"><a class="blue-text" href="#">Mot de passe oublié?</a></p>
                     <div class="clearfix"></div>
                 </div>
