@@ -1,6 +1,6 @@
 <!--Entete de début du site - menu bleu -->
 <?php 
-include_once("includes/header.php");
+include_once("../includes/header.php");
 ?>
 
 <!-- PROGRAMMER ICI -->
@@ -19,4 +19,4 @@ include_once("includes/header.php");
 </div>
 
 <!-- Fin d'un fichier incluant les sources JS de materialize -->
-<?php include_once("includes/footer.php"); ?>
+<?php include_once("../includes/footer.php"); ?>
