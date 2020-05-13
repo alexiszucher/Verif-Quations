@@ -1,5 +1,5 @@
 <!--Entete de début du site - menu bleu -->
-<?php include_once("../includes/entete_debut.php"); ?>
+<?php include_once("../includes/header.php"); ?>
 
 
 
