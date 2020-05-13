@@ -3,7 +3,11 @@
 include_once("includes/header.php");
 if(isset($_SESSION["type"]))
 {
-    if($_SESSION["type"] == 2)
+    if($_SESSION["type"] == "1")
+    {
+        header("location: eleve/tester_son_equation.php");
+    }
+    else if($_SESSION["type"] == "2")
     {
         header("location: professeur/message_eleve.php");
     }
@@ -56,7 +60,14 @@ if(isset($_SESSION["type"]))
                                 $_SESSION["mdp"] = $_POST["mdp"];
                                 $_SESSION["type"] = $data['type_id'];
                                 $_SESSION["id"] = $data['id_utilisateur'];
-                                header("location: professeur/message_eleve.php");
+                                if($_SESSION["type"] == "1")
+                                {
+                                    header("location: eleve/tester_son_equation.php");
+                                }
+                                else if($_SESSION["type"] == "2")
+                                {
+                                    header("location: professeur/message_eleve.php");
+                                }
                             }
                             else
                             {

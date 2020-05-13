@@ -36,6 +36,20 @@
       </ul>
     <?php
   }
+  else if($_SESSION["type"] == 1)
+  {
+    ?>
+    <nav>
+      <div class="nav-wrapper blue">
+        <a href="#" class="brand-logo">Vérif&Quations</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="../eleve/tester_son_equation.php">Tester son équation</a></li>
+          <li><a href="../deconnexion.php">Déconnexion</a></li>
+        </ul>
+      </div>
+    </nav>
+    <?php
+  }
   else if($_SESSION["type"] == 2)
   {
     ?>
@@ -51,3 +65,4 @@
     </nav>
     <?php
   }
+  
