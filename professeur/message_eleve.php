@@ -15,4 +15,4 @@
 </div>
 
 <!-- Fin d'un fichier incluant les sources JS de materialize -->
-<?php include_once("../includes/fin_fichier.php"); ?>
+<?php include_once("../includes/footer.php"); ?>

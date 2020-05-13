@@ -54,5 +54,5 @@
 
 <?php
     // Fin d'un fichier incluant les sources JS de materialize
-    include_once("includes/fin_fichier.php"); 
+    include_once("includes/footer.php"); 
  ?>
