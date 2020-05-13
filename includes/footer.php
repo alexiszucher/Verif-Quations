@@ -1,3 +1,4 @@
+
 <script src="../assets/js/verif_equation.js"></script>
 <script src="../assets/js/ajout.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
