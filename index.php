@@ -55,7 +55,6 @@ if(isset($_SESSION["type"]))
 
                             if (md5($_POST["mdp"]) == $data['mdp_utilisateur'])
                             {
-                                echo "<p style='color:green;'>Accès OK</p>";
                                 $_SESSION["login"] = $_POST["login"];
                                 $_SESSION["mdp"] = $_POST["mdp"];
                                 $_SESSION["type"] = $data['type_id'];
@@ -71,7 +70,7 @@ if(isset($_SESSION["type"]))
                             }
                             else
                             {
-                                echo "<p style='color:red;'>Accès PAS OK</p>";
+                                echo "<p style='color:red;'>Erreur, veuillez vérifier vos identifiants</p>";
                             }
                     }
                 ?>
